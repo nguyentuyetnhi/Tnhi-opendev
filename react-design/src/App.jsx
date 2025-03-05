@@ -26,7 +26,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Setup system
       </p>
       <div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg">
         <h1 className="text-4xl font-bold"> bé nhi xinh</h1>
