@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Slideshow from "./components/Slideshow.jsx";
+import Header from "./components/Header.jsx";
 import Registration from "./components/Registration.jsx";
 
 function App() {
@@ -8,8 +8,10 @@ function App() {
 
   return (
     <>
-      <Slideshow />
-      <Registration />
+      <Header />
+      <div className="container">
+        <Registration />
+      </div>
       <div className=" text-white p-6 rounded-lg shadow-lg bg-black pd-50">
 
         <button className="mt-4 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
