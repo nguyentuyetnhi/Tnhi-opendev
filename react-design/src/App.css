@@ -29,12 +29,6 @@
 }
 
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
 
 .clip-left {
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);

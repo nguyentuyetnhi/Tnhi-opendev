@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Header from "./components/Header.jsx";
 import Registration from "./components/Registration.jsx";
+import Hero from "./components/Hero.jsx"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <Header />
+      <Hero />
       <div className="container">
         <Registration />
       </div>
