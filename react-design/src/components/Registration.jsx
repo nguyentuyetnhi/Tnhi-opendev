@@ -50,6 +50,7 @@ const Registration = () => {
           </div>
         </div>
       </div>
+
     </header>
   );
 };

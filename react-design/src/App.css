@@ -36,25 +36,30 @@
   transition: filter 300ms;
 }
 
-.button-right {
-  background-color: #E30613;
-  color: #D9D9D9;
-}
-
-.button-left {
-  background-color: #009FE3;
-  color: #D9D9D9;
-  padding-right: 10px;
-}
-
 .clip-left {
-  clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  width: 166.25px;
+  height: 65px;
+  background-color: #009FE3;
+  position: relative;
+  margin-right: -60px;
+  z-index: 10;
+  font-size: large;
+  font-style: 'Big Shoulders Display';
+  font-weight: bold;
 }
 
 .clip-right {
-  clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  clip-path: polygon(0 0%, 100% 0%, 75% 100%, 0% 100%);
   background-color: #E30613;
+  width: 166.25px;
+  height: 65px;
+  position: relative;
+  font-size: large;
+  z-index: 0;
+  border-radius: 10%;
 }
+
 
 
 .registration-container {

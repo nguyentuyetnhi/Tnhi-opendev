@@ -22,15 +22,19 @@ const Header = () => {
 
             <Slideshow />
 
-
-            <div className="flex items-center justify-center">
-                <button className="bg-blue-500 text-white font-bold text-lg uppercase px-8 py-3 clip-left">
-                    RESERVE
-                </button>
-                <button className="bg-red-500 text-white font-bold text-lg uppercase px-8 py-3 clip-right">
-                    NOW!
-                </button>
+            <div className="relative inline-block">
+                <a href="https://booking.funarenacheb.cz/">
+                    <button className="clip-left bg-blue-500 text-white text-xl font-bold py-3 px-6 relative z-10">
+                        RESERVE
+                    </button>
+                </a>
+                <a href="https://booking.funarenacheb.cz/">
+                    <button className="clip-right bg-red-500 text-white text-xl font-bold py-3 px-6 absolute top-0 left-[calc(100%-40px)] z-0">
+                        NOW!
+                    </button>
+                </a>
             </div>
+
         </header>
     );
 };
