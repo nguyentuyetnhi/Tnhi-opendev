@@ -30,24 +30,31 @@
 }
 
 .step {
-  background-color: #222;
   color: white;
   padding: 10px 20px;
   font-weight: bold;
   font-size: 18px;
-  border-radius: 12px;
   position: relative;
   display: inline-block;
   border-radius: 12px;
   font-style: 'Space Grotesk';
+  background: #292929;
+  width: 581.12px;
+  height: 64px;
+
 }
 
 
 .box {
   width: 594px;
   height: 144px;
-  transform: skewX(-20deg);
-  padding: 12px 32px;
+}
+
+.clickcard-btn {
+  margin-left: 200px;
+  background-color: red !important;
+  color: white !important;
+  transform: scale(0.7);
 }
 
 
@@ -88,6 +95,7 @@
   padding: 50px;
   text-align: left;
   color: white;
+  margin-left: 100px;
 }
 
 .left {
@@ -109,11 +117,6 @@ h2 {
   font-family: 'Big Shoulders Text', sans-serif;
 }
 
-.step {
-  background: #292929;
-  width: 581.12px;
-  height: 64px;
-}
 
 .number {
   font-size: 2rem;
@@ -124,9 +127,26 @@ h2 {
 
 
 
+
+.qr-code {
+  border-radius: 10%;
+  width: 200px;
+  height: 200px;
+  margin-left: 450px;
+  margin-top: 1000px;
+}
+
+h3 {
+  font-style: 'Space Grotesk';
+
+}
+
+
 .text {
   font-size: smaller;
   margin-bottom: 5px;
+  margin-top: 10px;
+  margin-left: 30px;
 }
 
 .click-btn {
@@ -139,9 +159,9 @@ h2 {
 }
 
 .qr-code {
-  width: 80px;
-  height: 80px;
-  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
 }
 
 
