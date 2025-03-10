@@ -72,11 +72,11 @@
   margin-left: 200px;
   background-color: red !important;
   color: white !important;
-  transform: scale(0.6);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: -30px;
+  transform: scale(0.5);
 }
 
 .no-skew {
@@ -205,11 +205,12 @@ h3 {
   width: 120px;
   height: 120px;
   z-index: 30;
-  position: absolute;
   top: 55%;
   right: 200px;
   border-radius: 10%;
   transform: translateY(-50%);
+  margin-left: 400px;
+  margin-top: 20px;
 }
 
 
