@@ -151,8 +151,9 @@ h3 {
 
 .text {
   font-size: smaller;
-  margin-bottom: 10px;
+  margin-top: 10px;
   margin-left: 30px;
+  margin-bottom: 50px;
 }
 
 .click-btn {

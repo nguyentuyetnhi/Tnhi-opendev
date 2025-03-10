@@ -26,7 +26,7 @@ const Registration = () => {
               Choose from the attractions of the FUN arena.
             </p>
           </div>
-          <div className="relative">
+          <div className="relative bg-gray-900 p-4">
             <img
               src={QR}
               alt="QR"
@@ -52,7 +52,7 @@ const Registration = () => {
           </div>
 
 
-          <div className="box">
+          <div className="box mt-10">
             <div className="step">
               <div className="step-content">
                 <h3 className="no-skew">Have Fun</h3>
