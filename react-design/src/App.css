@@ -10,9 +10,10 @@
 
 
 .swiper-container {
-  width: 150vw;
+  width: 100vw;
   height: 100vh;
 }
+
 
 .swiper-slide {
   display: flex;
@@ -28,32 +29,56 @@
   object-fit: cover;
 }
 
+.step {
+  background-color: #222;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 12px;
+  position: relative;
+  display: inline-block;
+  border-radius: 12px;
+  font-style: 'Space Grotesk';
+}
+
+
+.box {
+  width: 594px;
+  height: 144px;
+  transform: skewX(-20deg);
+  padding: 12px 32px;
+}
+
 
 
 .clip-left {
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  transform: skewX(-20deg);
+  padding: 12px 32px;
   width: 166.25px;
   height: 65px;
   background-color: #009FE3;
   position: relative;
-  margin-right: -60px;
+  margin-right: -40px;
   z-index: 10;
-  font-size: large;
+  font-size: larger;
   font-style: 'Big Shoulders Display';
   font-weight: bold;
 }
 
 .clip-right {
-  clip-path: polygon(0 0%, 100% 0%, 75% 100%, 0% 100%);
-  background-color: #E30613;
+  transform: skewX(-20deg);
   width: 166.25px;
   height: 65px;
   position: relative;
   font-size: large;
-  z-index: 0;
-  border-radius: 10%;
-}
+  margin-left: 10px;
+  font-size: larger;
+  font-style: 'Big Shoulders Display';
+  font-weight: bold;
+  background-color: #E30613;
 
+}
 
 
 .registration-container {
@@ -82,16 +107,12 @@ h2 {
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Big Shoulders Text', sans-serif;
-  font-size: 72px;
 }
 
 .step {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
   background: #292929;
-  padding: 15px;
-  border-radius: 10px;
+  width: 581.12px;
+  height: 64px;
 }
 
 .number {
@@ -101,8 +122,11 @@ h2 {
   margin-right: 15px;
 }
 
-.step-content h3 {
-  margin: 0;
+
+
+.text {
+  font-size: smaller;
+  margin-bottom: 5px;
 }
 
 .click-btn {
