@@ -31,6 +31,7 @@
 
 .step {
   color: white;
+  transform: skewX(-20deg);
   padding: 10px 20px;
   font-weight: bold;
   font-size: 18px;
@@ -41,6 +42,7 @@
   background: #292929;
   width: 581.12px;
   height: 64px;
+
 
 }
 
@@ -54,7 +56,17 @@
   margin-left: 200px;
   background-color: red !important;
   color: white !important;
-  transform: scale(0.7);
+  transform: scale(0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px;
+}
+
+.no-skew {
+  transform: skewX(20deg);
+  display: flex;
+  align-items: center;
 }
 
 
@@ -115,6 +127,7 @@ h2 {
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Big Shoulders Text', sans-serif;
+  margin-left: 5px;
 }
 
 
@@ -128,13 +141,7 @@ h2 {
 
 
 
-.qr-code {
-  border-radius: 10%;
-  width: 200px;
-  height: 200px;
-  margin-left: 450px;
-  margin-top: 1000px;
-}
+
 
 h3 {
   font-style: 'Space Grotesk';
@@ -144,8 +151,7 @@ h3 {
 
 .text {
   font-size: smaller;
-  margin-bottom: 5px;
-  margin-top: 10px;
+  margin-bottom: 10px;
   margin-left: 30px;
 }
 
@@ -159,10 +165,16 @@ h3 {
 }
 
 .qr-code {
-  width: 100px;
-  height: 100px;
-  margin-top: -50px;
+  width: 120px;
+  height: 120px;
+  z-index: 30;
+  position: absolute;
+  top: 55%;
+  right: 200px;
+  border-radius: 10%;
+  transform: translateY(-50%);
 }
+
 
 
 .logo:hover {

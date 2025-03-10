@@ -19,7 +19,7 @@ const Registration = () => {
           <div className="box ">
             <div className="step flex items-center space-x-4">
               <div className="step-content flex flex-col">
-                <h3 >Choose an Attraction</h3>
+                <h3 className="no-skew" >Choose an Attraction</h3>
               </div>
             </div>
             <p className="text">
@@ -30,18 +30,24 @@ const Registration = () => {
             <img
               src={QR}
               alt="QR"
-              className="  relative qr-code absolute top-10 right-0 transform translate-x-1/2 -translate-y-1/2  z-20"
+              className="qr-code absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-1/4 z-30"
             />
-            <div className="step absolute z-10 p-4 bg-gray-800 text-white rounded-lg">
+
+            <div className="step absolute z-20 p-4 bg-gray-800 text-white rounded-lg">
               <div className="step-content flex justify-between items-center">
-                <h3 className="text-lg font-bold">Register</h3>
-                <button className="clickcard-btn bg-red-500 text-white px-3 py-2 rounded-md">
-                  Click here
-                </button>
+                <h3 className="text-lg font-bold no-skew">Register</h3>
+                <div className="no-skew">
+                  <a href="https://web.racefacer.com/kiosk/kartarenacheb/">
+                    <button className="clickcard-btn">Click here</button>
+                  </a>
+                </div>
               </div>
             </div>
+
             <p className="text mt-2">
-              You can register at the reception or by<br /> clicking the button above from the comfort of<br />your home.
+              You can register at the reception or by<br />
+              clicking the button above from the comfort of<br />
+              your home.
             </p>
           </div>
 
@@ -49,7 +55,7 @@ const Registration = () => {
           <div className="box">
             <div className="step">
               <div className="step-content">
-                <h3>Have Fun</h3>
+                <h3 className="no-skew">Have Fun</h3>
               </div>
             </div>
             <p className="text">
