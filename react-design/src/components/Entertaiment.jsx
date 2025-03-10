@@ -1,31 +1,27 @@
-import { useState } from "react";
-import { Menu, X } from "lucide-react";
-import Slideshow from "./Slideshow";
-import Hero from "./Hero";
+import { ArrowRight } from "lucide-react";
 
-
-const Entertaiment = () => {
+const Entertainment = () => {
     return (
-        <header className="w-full bg-black text-white py-16">
-            <div className=" enter pl-6 md:pl-24">
-                <h2 className="text-5xl md:text-7xl font-bold uppercase leading-tight text-left">
+        <header className="w-full bg-black text-white py-16 flex flex-col items-center">
+            <div className=" entertai w-full max-w-6xl px-6 md:px-24 text-center md:text-left">
+                <h2 className="text-5xl md:text-7xl font-bold uppercase leading-tight">
                     New Entertainment <br /> Centre Near Cheb
                 </h2>
-                <span className="text-lg md:text-xl mt-6 block text-left">
+                <span className="text-lg md:text-xl mt-6 block">
                     We have been entertaining children and adults <br />
                     in western Bohemia for more than 10 years!
                 </span>
             </div>
-            <div className="flex justify-end w-full">
-                <span className="text-right">Find more about us</span>
+            <div className="find-more-container flex items-center">
+                Find more about us
+                <div className="ml-[10px]">
+                    <ArrowRight size={20} />
+                </div>
             </div>
+
 
         </header>
     );
 };
 
-
-
-
-export default Entertaiment;
-
+export default Entertainment;

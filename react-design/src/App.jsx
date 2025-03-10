@@ -14,15 +14,12 @@ function App() {
       <Hero />
       <div className="container">
         <Registration />
-        < Entertaiment />
       </div>
+      < Entertaiment />
 
-      <div className=" text-white p-6 rounded-lg shadow-lg bg-black pd-50">
-
-        <button className="mt-4 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
-          Rregistration
-        </button>
-      </div>
+      <button className="mt-4 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+        Rregistration
+      </button>
     </>
   )
 }
