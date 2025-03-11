@@ -1,5 +1,6 @@
 import { useState } from "react";
 import QR from "../assets/QR.png";
+import logo from "../assets/logo.png"
 
 const Registration = () => {
   return (
@@ -68,6 +69,7 @@ const Registration = () => {
           </div>
         </div>
       </div>
+      <img src={logo} alt="logo " className="w-full h-screen object-cover" />
 
     </header>
   );
