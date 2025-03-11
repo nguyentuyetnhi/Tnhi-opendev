@@ -69,7 +69,7 @@ const Registration = () => {
           </div>
         </div>
       </div>
-      <img src={logo} alt="logo " className="w-full h-screen object-cover" />
+      <img src={logo} alt="logo " className="logo w-full h-screen object-cover rotate-90 opacity-50" />
 
     </header>
   );

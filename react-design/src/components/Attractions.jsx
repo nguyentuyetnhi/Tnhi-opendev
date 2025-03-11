@@ -21,16 +21,16 @@ const Attraction = () => {
                         style={{ backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 1) 100%), url(${slide1})`, backgroundSize: "cover", backgroundPosition: "center", backgroundSize: "80%" }}
                     >
                         <div className="step-content-att flex flex-col">
-                            <h3 className="no-skew">kartarena</h3>
+                            <h3 className="no-skew">KARTARENA</h3>
                         </div>
                     </div>
 
                     <div
-                        className="step-att jumba flex items-center space-x-4"
+                        className="step-att flex items-end space-x-4 text-white"
                         style={{ backgroundImage: `linear-gradient(to right, rgba(67, 67, 67, 0.3) 40%, rgba(67, 67, 67, 1) 100%), url(${slide2})`, backgroundSize: "cover", backgroundPosition: "center", backgroundSize: "80%", }}
                     >
-                        <div className="step-content-att flex flex-col">
-                            <h3 className="no-skew">jumparenan</h3>
+                        <div className=" JUMPARENAN step-content-att flex flex-col">
+                            <h3 className="no-skew ">JUMPARENAN</h3>
                         </div>
                     </div>
 
@@ -44,7 +44,7 @@ const Attraction = () => {
                         }}
                     >
                         <div className="step-content-att flex flex-col">
-                            <h3 className="no-skew">virtual reality</h3>
+                            <h3 className="no-skew">VIRTUAL REALITY</h3>
                         </div>
                     </div>
 
@@ -53,7 +53,7 @@ const Attraction = () => {
                         style={{ backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 1) 100%), url(${slide4})`, backgroundSize: "cover", backgroundPosition: "center", backgroundSize: "80%" }}
                     >
                         <div className="step-content-att flex flex-col">
-                            <h3 className="no-skew">multiball</h3>
+                            <h3 className="no-skew">MULTIBALL</h3>
                         </div>
                     </div>
                     <div
@@ -61,7 +61,7 @@ const Attraction = () => {
                         style={{ backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1)100%), url(${slide5})`, backgroundSize: "cover", backgroundPosition: "center", backgroundSize: "80%" }}
                     >
                         <div className="step-content-att flex flex-col">
-                            <h3 className="no-skew">laser shooting range</h3>
+                            <h3 className="no-skew">LASER SHOOTING RANGE</h3>
                         </div>
                     </div>
                     <div
@@ -69,7 +69,7 @@ const Attraction = () => {
                         style={{ backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 1) 100%), url(${video})`, backgroundSize: "cover", backgroundPosition: "center", backgroundSize: "80%" }}
                     >
                         <div className="step-content-att flex flex-col">
-                            <h3 className="no-skew">company events</h3>
+                            <h3 className="no-skew">COMPANY EVENTS</h3>
                         </div>
                     </div>
                 </div>

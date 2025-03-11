@@ -84,7 +84,15 @@
 
 .step-content-att {
   display: flex;
-  margin-left: 350px;
+  margin-left: 270px;
+  font-family: 'Big Shoulders Text', sans-serif;
+  color: #292929;
+  font-weight: bold;
+  font-size: large;
+}
+
+.JUMPARENAN {
+  color: #FFFFFF;
 }
 
 .our-text {
@@ -276,6 +284,14 @@ h3 {
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
+.logo {
+  transform: rotate(90deg);
+  opacity: 0.5;
+  margin-left: -120px;
+
+}
+
 
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
