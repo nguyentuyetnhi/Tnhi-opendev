@@ -5,6 +5,7 @@ import Registration from "./components/Registration.jsx";
 import Hero from "./components/Hero.jsx"
 import Entertaiment from "./components/Entertaiment";
 import Attraction from "./components/Attractions"
+import Footer from "./components/Footer"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,9 +16,11 @@ function App() {
       <Hero />
       <div className="container">
         <Registration />
+
+        < Entertaiment />
+        <Attraction />
+        < Footer />
       </div>
-      < Entertaiment />
-      <Attraction />
     </>
   )
 }
