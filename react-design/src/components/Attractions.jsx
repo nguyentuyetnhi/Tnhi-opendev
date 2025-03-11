@@ -26,13 +26,22 @@ const Attraction = () => {
                     </div>
 
                     <div
-                        className="step-att flex items-end space-x-4 text-white"
-                        style={{ backgroundImage: `linear-gradient(to right, rgba(67, 67, 67, 0.3) 40%, rgba(67, 67, 67, 1) 100%), url(${slide2})`, backgroundSize: "cover", backgroundPosition: "center", backgroundSize: "80%", }}
+                        className="step-att flex items-end space-x-4 text-white absolute right-0 translate-x-20 z-10"
+                        style={{
+                            backgroundImage: `linear-gradient(to right, rgba(67, 67, 67, 0.3) 40%, rgba(67, 67, 67, 1) 100%), url(${slide2})`,
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            backgroundSize: "80%",
+                        }}
                     >
-                        <div className=" JUMPARENAN step-content-att flex flex-col">
-                            <h3 className="no-skew ">JUMPARENAN</h3>
+                        <div className="JUMPARENAN step-content-att flex flex-col">
+                            <h3 className="no-skew">JUMPARENAN</h3>
                         </div>
                     </div>
+
+
+
+
 
                     <div
                         className="step-att flex items-center space-x-4 relative"
@@ -78,8 +87,9 @@ const Attraction = () => {
                     <img
                         src={attraction}
                         alt="Attraction"
-                        className=" Attraction w-full h-screen object-cover"
+                        className="Attraction w-full h-screen object-cover absolute right-0 top-0 z-20"
                     />
+
                 </div>
             </div>
 

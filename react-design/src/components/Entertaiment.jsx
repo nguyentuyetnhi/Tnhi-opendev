@@ -1,10 +1,12 @@
 import { ArrowRight } from "lucide-react";
 import Video from "../assets/video.png";
 import Play from "../assets/play.png"
+import logo from "../assets/logo.png"
 
 const Entertainment = () => {
     return (
         <header className="w-full bg-black text-white py-16 flex flex-col items-center">
+            <img src={logo} alt="logo " className="logo w-full h-screen object-cover rotate-90 opacity-40" />
             <div className=" entertai w-full max-w-6xl px-6 md:px-24 text-center md:text-left">
                 <h2 className="text-5xl md:text-7xl font-bold uppercase leading-tight">
                     New Entertainment <br /> Centre Near Cheb
@@ -21,10 +23,7 @@ const Entertainment = () => {
                 </div>
             </div>
             <div className="relative flex justify-center items-center ">
-                {/* Video (A) */}
                 <img src={Video} alt="Video" className="video" />
-
-                {/* Play (B) - Đè lên Video */}
                 <img
                     src={Play}
                     alt="Play"
