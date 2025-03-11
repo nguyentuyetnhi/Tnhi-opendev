@@ -198,6 +198,17 @@
   margin-top: 100px;
 }
 
+.gif button {
+  background-color: #E30613;
+  padding: 20px;
+  color: #FFFFFF;
+  border-radius: 24px;
+  margin-top: 70px;
+  height: 80px;
+  width: 50%;
+
+}
+
 .contact {
   margin-left: 1000px;
 }

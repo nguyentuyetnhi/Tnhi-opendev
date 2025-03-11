@@ -6,6 +6,7 @@ import Hero from "./components/Hero.jsx"
 import Entertaiment from "./components/Entertaiment";
 import Attraction from "./components/Attractions"
 import Footer from "./components/Footer"
+import Gif from "./components/Gif"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
 
         < Entertaiment />
         <Attraction />
+        <Gif />
         < Footer />
       </div>
     </>
