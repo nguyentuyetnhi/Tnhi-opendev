@@ -1,6 +1,6 @@
 #root {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -66,17 +66,25 @@
 .box {
   width: 594px;
   height: 144px;
+  position: relative;
+  margin-bottom: 30px;
+
 }
 
+
 .clickcard-btn {
-  margin-left: 200px;
+  margin-left: 220px;
   background-color: red !important;
   color: white !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -30px;
+  margin-top: -20px;
   transform: scale(0.5);
+  font-size: 12px;
+  padding: 5px 10px;
+  width: auto;
+  height: auto;
 }
 
 .no-skew {
@@ -201,18 +209,22 @@ h3 {
   cursor: pointer;
 }
 
+.att {
+  margin-top: 300px;
+  margin-right: 500px;
+
+}
+
+
 .qr-code {
   width: 120px;
   height: 120px;
-  z-index: 30;
-  top: 55%;
-  right: 200px;
   border-radius: 10%;
-  transform: translateY(-50%);
   margin-left: 400px;
-  margin-top: 20px;
-}
+  margin-top: -150px;
+  position: absolute;
 
+}
 
 
 .logo:hover {

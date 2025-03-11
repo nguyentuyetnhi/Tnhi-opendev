@@ -20,7 +20,7 @@ const Entertainment = () => {
                     <ArrowRight size={16} />
                 </div>
             </div>
-            <div className="relative flex justify-center items-center min-h-screen">
+            <div className="relative flex justify-center items-center ">
                 {/* Video (A) */}
                 <img src={Video} alt="Video" className="video" />
 
