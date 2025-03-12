@@ -3,7 +3,7 @@ import QR from "../assets/QR.png";
 
 const Registration = () => {
   return (
-    <header className="w-full bg-black">
+    <div className="w-full bg-black">
       <div className="registration-container ">
         <div className="left">
           <h2>REGISTRATION</h2>
@@ -63,7 +63,7 @@ const Registration = () => {
         </div>
       </div>
 
-    </header>
+    </div>
   );
 };
 

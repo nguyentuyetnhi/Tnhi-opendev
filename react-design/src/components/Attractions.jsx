@@ -11,7 +11,7 @@ const Attraction = () => {
 
 
     return (
-        <header className=" att text-white w-full bg-black">
+        <div className=" att text-white w-full bg-black">
             <div className="flex w-full">
                 <div className="our w-2/5 flex flex-col space-y-4 items-start text-left">
                     <h2 className=" our-text text-xl font-bold">OUR ATTRACTIONS</h2>
@@ -94,7 +94,7 @@ const Attraction = () => {
             </div>
 
 
-        </header>
+        </div>
     );
 };
 

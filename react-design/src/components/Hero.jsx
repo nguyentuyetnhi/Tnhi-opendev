@@ -5,7 +5,7 @@ const Hero = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <header className="absolute top-10 right-10 w-auto bg-black bg-opacity-50 text-white px-6 py-4 flex items-center justify-between z-50 rounded-lg">
+        <div className="absolute top-10 right-10 w-auto bg-black bg-opacity-50 text-white px-6 py-4 flex items-center justify-between z-50 rounded-lg">
             <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
                 {menuOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
@@ -19,7 +19,7 @@ const Hero = () => {
                     <span className="mt-4 font-semibold">+420 737 878 891</span>
                 </div>
             )}
-        </header>
+        </div>
     );
 };
 
