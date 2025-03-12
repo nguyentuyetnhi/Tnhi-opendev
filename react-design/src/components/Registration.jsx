@@ -50,7 +50,7 @@ const Registration = () => {
 
           <div className="box mt-10">
             <div className="step">
-              <div className="step-content">
+              <div className=" step-content">
                 <h3 className="no-skew">Have Fun</h3>
               </div>
             </div>

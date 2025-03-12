@@ -1,5 +1,3 @@
-import { useState } from "react";
-import { Menu, X } from "lucide-react";
 import attraction from "../assets/attraction.png"
 import slide1 from "../assets/slideshow1.png";
 import slide2 from "../assets/slideshow2.png";
@@ -8,101 +6,58 @@ import slide4 from "../assets/slideshow4.png";
 import slide5 from "../assets/slideshow5.png";
 import video from "../assets/video.png";
 const Attraction = () => {
-
-
     return (
-        <div className=" att text-white w-full bg-black">
+        <div className="att text-white w-full bg-black">
             <div className="flex w-full">
 
-                <div className=" our grid grid-cols-1 md:grid-cols-6 gap-6 text-center items-center">
-                    <h2 className=" our-text text-xl font-bold">OUR ATTRACTIONS</h2>
 
-                    <div
-                        className="step-att flex items-center space-x-4 mt-20"
-                        style={{ backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 1) 100%), url(${slide1})`, backgroundSize: "cover", backgroundPosition: "center", backgroundSize: "80%" }}
-                    >
-                        <div className="step-content-att flex flex-col">
-                            <h3 className="no-skew">KARTARENA</h3>
+                <div className="our w-3/5 grid grid-cols-1 md:grid-cols-6 gap-6 text-center items-center">
+                    <h2 className="our-text text-xl font-bold">OUR ATTRACTIONS</h2>
+
+                    {[
+                        { title: "KARTARENA", image: slide1 },
+                        { title: "JUMPARENAN", image: slide2 },
+                        { title: "VIRTUAL REALITY", image: slide3 },
+                        { title: "MULTIBALL", image: slide4 },
+                        { title: "LASER SHOOTING RANGE", image: slide5 },
+                        { title: "COMPANY EVENTS", image: video }
+                    ].map((attraction, index) => (
+                        <div
+                            key={index}
+                            className="step-att flex items-center space-x-4"
+                            style={{
+                                backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 1) 100%), url(${attraction.image})`,
+                                backgroundSize: "80%",
+                                backgroundPosition: "center"
+                            }}
+                        >
+
+
+                            <div className="step-content-att flex flex-col">
+                                <h3 className="no-skew">{attraction.title}</h3>
+                            </div>
                         </div>
-                    </div>
 
-                    <div
-                        className="step-att flex items-end space-x-4 text-white absolute right-0 translate-x-20 z-10"
-                        style={{
-                            backgroundImage: `linear-gradient(to right, rgba(67, 67, 67, 0.3) 40%, rgba(67, 67, 67, 1) 100%), url(${slide2})`,
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                            backgroundSize: "80%",
-                        }}
-                    >
-                        <div className="JUMPARENAN step-content-att flex flex-col">
-                            <h3 className="no-skew">JUMPARENAN</h3>
-                        </div>
-                    </div>
-
-
-
-
-
-                    <div
-                        className="step-att flex items-center space-x-4 relative"
-                        style={{
-                            backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 1) 100%), url(${slide3})`,
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                            backgroundSize: "80%"
-                        }}
-                    >
-                        <div className="step-content-att flex flex-col">
-                            <h3 className="no-skew">VIRTUAL REALITY</h3>
-                        </div>
-                    </div>
-
-                    <div
-                        className="step-att flex items-center space-x-4"
-                        style={{ backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 1) 100%), url(${slide4})`, backgroundSize: "cover", backgroundPosition: "center", backgroundSize: "80%" }}
-                    >
-                        <div className="step-content-att flex flex-col">
-                            <h3 className="no-skew">MULTIBALL</h3>
-                        </div>
-                    </div>
-                    <div
-                        className="step-att flex items-center space-x-4"
-                        style={{ backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1)100%), url(${slide5})`, backgroundSize: "cover", backgroundPosition: "center", backgroundSize: "80%" }}
-                    >
-                        <div className="step-content-att flex flex-col">
-                            <h3 className="no-skew">LASER SHOOTING RANGE</h3>
-                        </div>
-                    </div>
-                    <div
-                        className="step-att flex items-center space-x-4"
-                        style={{ backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 1) 100%), url(${video})`, backgroundSize: "cover", backgroundPosition: "center", backgroundSize: "80%" }}
-                    >
-                        <div className="step-content-att flex flex-col">
-                            <h3 className="no-skew">COMPANY EVENTS</h3>
-                        </div>
-                    </div>
+                    ))}
                 </div>
 
-                <div className="w-3/5 relative">
-                    <p className=" multi absolute right-8 top-1/2 transform -translate-y-1/2 text-white text-xl font-bold z-30">
-                        Multiple activities at Fun Arena Cheb
-                    </p>
+                <div className="w-2/5 relative">
                     <img
                         src={attraction}
                         alt="Attraction"
-                        className=" Attraction w-full h-screen object-cover absolute right-0 top-0 z-20"
+                        className=" Attraction w-full h-screen object-cover rounded-xl"
                     />
-
+                    <p className=" multi absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-2xl font-bold bg-black/50 px-4 py-2 rounded-lg">
+                        Multiple activities at Fun Arena Cheb
+                    </p>
                 </div>
 
+
+
+
             </div>
-
-
         </div>
     );
 };
-
-
 
 export default Attraction;
