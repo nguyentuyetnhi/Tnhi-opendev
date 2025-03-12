@@ -1,0 +1,4 @@
+-- git clone--
+-- npm i--
+-- npm run dev-
+--  Download library if not already there--
