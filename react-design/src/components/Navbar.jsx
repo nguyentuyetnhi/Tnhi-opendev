@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
-const Hero = () => {
+const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
@@ -26,4 +26,4 @@ const Hero = () => {
 
 
 
-export default Hero;
+export default Navbar;

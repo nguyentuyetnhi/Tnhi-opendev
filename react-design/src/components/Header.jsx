@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Slideshow from "./Slideshow";
-import Hero from "./Hero";
+import menu from "../assets/menu.png";
 
 
 const Header = () => {

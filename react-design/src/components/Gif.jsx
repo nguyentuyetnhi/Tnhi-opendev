@@ -5,9 +5,9 @@ const Gif = () => {
         <div className="relative flex justify-center">
             <div className="relative w-full max-w-[500px] flex flex-col items-center">
                 <button className="make bg-red-600 text-white px-6 py-4 rounded-full w-full text-center mt-24 relative z-20">
-                    <h3 className="font-semibold">
+                    <h4 className="font-semibold">
                         Make somebody happy with a gift voucher
-                    </h3>
+                    </h4>
                     <p className="text-sm">
                         The voucher is valid for all services. Unforgettable experiences for children and adults!
                     </p>

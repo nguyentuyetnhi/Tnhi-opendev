@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
-import Hero from "./Hero.jsx";
+import Hero from "./Navbar.jsx";
 
 
 import slide1 from "../assets/slideshow1.png";

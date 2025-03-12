@@ -210,6 +210,15 @@
   position: relative;
   margin-top: 200px;
   font-size: small;
+
+}
+
+.make h4 {
+  margin-left: 100px;
+}
+
+.make p {
+  margin-left: 100px;
 }
 
 .buy {
@@ -310,8 +319,17 @@ h2 {
 
 
 
+h4 {
+  font-style: 'Space Grotesk';
+  font-size: 230%;
+  margin-top: -10px;
+
+
+}
+
 h3 {
   font-style: 'Space Grotesk';
+
 
 }
 
