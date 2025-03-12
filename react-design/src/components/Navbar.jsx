@@ -25,17 +25,6 @@ const Navbar = () => {
                 <button className=" menu-icon md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
                     {menuOpen ? <X size={30} /> : <Menu size={30} />}
                 </button>
-
-                {/* Menu Dropdown */}
-                {menuOpen && (
-                    <div className=" absolute top-14 right-0 w-48 bg-black bg-opacity-90 p-5 flex flex-col space-y-4 md:hidden rounded-lg shadow-lg">
-                        <a href="#" className="hover:text-red-500">Home</a>
-                        <a href="#" className="hover:text-red-500">Registration</a>
-                        <a href="#" className="hover:text-red-500">Attractions</a>
-                        <a href="#" className="hover:text-red-500">Contact</a>
-                        <span className="mt-4 font-semibold">+420 737 878 891</span>
-                    </div>
-                )}
             </div>
         </div>
     );
