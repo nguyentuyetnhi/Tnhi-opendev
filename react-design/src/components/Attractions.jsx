@@ -9,7 +9,7 @@ const Attraction = () => {
     return (
         <div className="att text-white w-full bg-black">
             <div className="flex w-full">
-                {/* Chỉnh sửa className để tránh bị thu nhỏ */}
+
                 <div className="our w-3/5 flex flex-col gap-6 text-center items-center">
                     <h2 className="our-text text-xl font-bold">OUR ATTRACTIONS</h2>
 
@@ -37,7 +37,7 @@ const Attraction = () => {
                     ))}
                 </div>
 
-                {/* Đẩy phần hình ảnh Attraction sang bên phải */}
+
                 <div className="w-2/5 relative ml-auto">
                     <img
                         src={attraction}
