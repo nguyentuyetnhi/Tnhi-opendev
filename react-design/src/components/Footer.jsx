@@ -33,7 +33,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className=" copy text-end mt-6 text-gray-400 text-sm">
-                    © 2024 Công ty ABC. All rights reserved.
+                    © 2025 FUN Arena Cheb. All rights Reserved.
                 </div>
             </div>
         </footer>
