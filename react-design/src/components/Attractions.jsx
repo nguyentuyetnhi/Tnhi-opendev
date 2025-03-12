@@ -49,7 +49,9 @@ const Attraction = () => {
                     />
                     <p className=" multi absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-2xl font-bold bg-black/50 px-4 py-2 rounded-lg">
                         Multiple activities at Fun Arena Cheb
+
                     </p>
+
                 </div>
 
 

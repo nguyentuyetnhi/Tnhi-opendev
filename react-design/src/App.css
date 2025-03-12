@@ -32,11 +32,36 @@
 }
 
 
-body,
-html {
+
+html,
+body {
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
-  width: 100%;
+  width: 100vw;
 }
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 
 
 .step-content::before {
