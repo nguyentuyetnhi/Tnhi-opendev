@@ -13,9 +13,11 @@ const Gif = () => {
                     </p>
                 </button>
                 <img src={gif} alt="gif" className="gif absolute top-[-50px] z-10" />
-                <button className="buy bg-white text-black px-4 py-2 rounded-lg border border-black absolute right-[-10%] top-1/2 -translate-y-1/2 shadow-md z-30">
-                    Buy now
-                </button>
+                <a href="https://vouchers.funarenacheb.cz/c/darkovy-poukaz">
+                    <button className="buy bg-white text-black px-4 py-2 rounded-lg border border-black absolute right-[-10%] top-1/2 -translate-y-1/2 shadow-md z-30">
+                        Buy now
+                    </button>
+                </a>
             </div>
         </div>
     );

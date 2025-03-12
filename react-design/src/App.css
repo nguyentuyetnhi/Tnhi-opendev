@@ -219,12 +219,55 @@
   z-index: 30;
   position: absolute;
   margin-top: 225px;
+  color: #191919
 }
 
 
 .contact {
   margin-left: 1000px;
   margin-top: -10px;
+}
+
+.footer2 {
+  justify-items: start;
+  margin-left: 280px;
+  margin-top: 40px;
+}
+
+.footer3 {
+  justify-items: end;
+  margin-left: 250px;
+  margin-top: 40px;
+}
+
+.footer {
+  display: flex;
+  margin-top: 100px;
+
+}
+
+.icon {
+  display: flex;
+  margin-left: 70px;
+  background-color: #292929;
+  border-radius: 20px;
+  width: 200px;
+
+
+}
+
+
+
+.copy {
+  margin-left: 570px;
+  margin-top: 30px;
+  padding-bottom: 100px;
+}
+
+.footer img {
+  width: 220px;
+  height: 150px;
+  margin-left: 70px;
 }
 
 .right {

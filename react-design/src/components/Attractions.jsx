@@ -13,7 +13,8 @@ const Attraction = () => {
     return (
         <div className=" att text-white w-full bg-black">
             <div className="flex w-full">
-                <div className="our w-2/5 flex flex-col space-y-4 items-start text-left">
+
+                <div className=" our grid grid-cols-1 md:grid-cols-6 gap-6 text-center items-center">
                     <h2 className=" our-text text-xl font-bold">OUR ATTRACTIONS</h2>
 
                     <div
@@ -83,14 +84,18 @@ const Attraction = () => {
                     </div>
                 </div>
 
-                <div className="w-3/5">
+                <div className="w-3/5 relative">
+                    <p className=" multi absolute right-8 top-1/2 transform -translate-y-1/2 text-white text-xl font-bold z-30">
+                        Multiple activities at Fun Arena Cheb
+                    </p>
                     <img
                         src={attraction}
                         alt="Attraction"
-                        className="Attraction w-full h-screen object-cover absolute right-0 top-0 z-20"
+                        className=" Attraction w-full h-screen object-cover absolute right-0 top-0 z-20"
                     />
 
                 </div>
+
             </div>
 
 
