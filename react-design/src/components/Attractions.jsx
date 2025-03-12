@@ -9,9 +9,8 @@ const Attraction = () => {
     return (
         <div className="att text-white w-full bg-black">
             <div className="flex w-full">
-
-
-                <div className="our w-3/5 grid grid-cols-1 md:grid-cols-6 gap-6 text-center items-center">
+                {/* Chỉnh sửa className để tránh bị thu nhỏ */}
+                <div className="our w-3/5 flex flex-col gap-6 text-center items-center">
                     <h2 className="our-text text-xl font-bold">OUR ATTRACTIONS</h2>
 
                     {[
@@ -24,41 +23,34 @@ const Attraction = () => {
                     ].map((attraction, index) => (
                         <div
                             key={index}
-                            className="step-att flex items-center space-x-4"
+                            className="step-att flex items-center justify-start w-full space-x-4"
                             style={{
                                 backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 1) 100%), url(${attraction.image})`,
                                 backgroundSize: "80%",
                                 backgroundPosition: "center"
                             }}
                         >
-
-
                             <div className="step-content-att flex flex-col">
                                 <h3 className="no-skew">{attraction.title}</h3>
                             </div>
                         </div>
-
                     ))}
                 </div>
 
-                <div className="w-2/5 relative">
+                {/* Đẩy phần hình ảnh Attraction sang bên phải */}
+                <div className="w-2/5 relative ml-auto">
                     <img
                         src={attraction}
                         alt="Attraction"
-                        className=" Attraction w-full h-screen object-cover rounded-xl"
+                        className="Attraction w-full h-screen object-cover rounded-xl"
                     />
-                    <p className=" multi absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-2xl font-bold bg-black/50 px-4 py-2 rounded-lg">
+                    <p className="multi absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-2xl font-bold bg-black/50 px-4 py-2 rounded-lg">
                         Multiple activities at Fun Arena Cheb
-
                     </p>
-
                 </div>
-
-
-
-
             </div>
         </div>
+
     );
 };
 

@@ -14,8 +14,8 @@ function App() {
   return (
     <>
       <Navbar />
+      <Header />
       <div className="container">
-        <Header />
         <Registration />
         <Entertaiment />
         <Attraction />

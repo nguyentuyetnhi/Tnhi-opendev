@@ -14,12 +14,12 @@ const Header = () => {
             <div className="relative inline-block">
                 <a href="https://booking.funarenacheb.cz/">
                     <button className="clip-left bg-blue-500 text-white text-xl font-bold py-3 px-6 relative z-10">
-                        RESERVE
+                        <p className="no-skew">RESERVE</p>
                     </button>
                 </a>
                 <a href="https://booking.funarenacheb.cz/">
                     <button className="clip-right bg-red-500 text-white text-xl font-bold py-3 px-6 absolute top-0 left-[calc(100%-40px)] z-0">
-                        NOW!
+                        <p className="no-skew now">NOW!</p>
                     </button>
                 </a>
             </div>
