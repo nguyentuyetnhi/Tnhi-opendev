@@ -12,7 +12,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
+    <div className="app-container">
       <Navbar />
       <Header />
       <div className="container">
@@ -22,7 +22,7 @@ function App() {
         <Gif />
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
 

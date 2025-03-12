@@ -35,11 +35,17 @@
 
 html,
 body {
+  width: 100%;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-  width: 100vw;
+  box-sizing: border-box;
 }
+
+.some-element {
+  width: 100%;
+}
+
 
 .container {
   max-width: 1440px;
@@ -556,4 +562,65 @@ h3 {
 
 .read-the-docs {
   color: #888;
+}
+
+
+
+/* -------------- Mobile Styles (<768px) -------------- */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Header */
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Các section */
+  .registration,
+  .entertaiment,
+  .attraction,
+  .gif,
+  .footer {
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Footer */
+  .footer p {
+    font-size: 14px;
+  }
+}
+
+/* -------------- Tablet Styles (768px - 1024px) -------------- */
+@media (max-width: 1024px) {
+  .container {
+    padding: 15px;
+  }
+
+  .navbar {
+    justify-content: space-around;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .footer p {
+    font-size: 16px;
+  }
+}
+
+/* -------------- Desktop Styles (> 1024px) -------------- */
+@media (min-width: 1025px) {
+  .container {
+    padding: 20px;
+  }
 }
