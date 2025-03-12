@@ -8,7 +8,7 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <header className="w-full">
+        <header className=" header w-full">
             <Slideshow />
 
             <div className="relative inline-block">

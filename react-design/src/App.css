@@ -12,7 +12,34 @@
 .swiper-container {
   width: 100vw;
   height: auto;
+  overflow: hidden;
 }
+
+.navbar {
+  position: absolute;
+  margin-left: 550px;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  z-index: 1000;
+  padding: 10px 20px;
+}
+
+.img-logo {
+  width: 120px;
+  height: 100px;
+  margin-left: -500px;
+}
+
+
+body,
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+
+
 
 
 .entertai {
@@ -37,6 +64,10 @@
   justify-content: center;
   width: 100vw;
   height: auto;
+}
+
+.header {
+  position: relative;
 }
 
 .swiper-slide img {
@@ -325,6 +356,23 @@ h4 {
   margin-top: -10px;
 
 
+}
+
+.menu-icon {
+  border-radius: 50%;
+  background-color: #292929;
+  width: 60px;
+  height: 60px;
+  margin-left: 100px;
+
+
+
+}
+
+.global {
+  width: 60px;
+  height: 60px;
+  margin-left: 900px;
 }
 
 h3 {
